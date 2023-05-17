@@ -1,0 +1,15 @@
+{
+  "name": "slidev-archived",
+  "version": "1.0.0",
+  "description": "some slidev docs archived",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "slidev",
+    "docs"
+  ],
+  "author": "ajycc20 <ajycc20@qq.com>",
+  "license": "MIT"
+}
