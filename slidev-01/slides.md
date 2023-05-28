@@ -96,7 +96,7 @@ layout: two-cols
 ---
 # Atomic CSS
 
-```vue
+```vue{all|7-11}
 <template>
   <div 
     flex
@@ -116,7 +116,7 @@ layout: two-cols
 
 # Renderer
 <br />
-<VueStyleAtom v-click></VueStyleAtom>
+<VueStyleAtom v-click="1"></VueStyleAtom>
 
 <!-- CSS atomic like Windi CSS 、Tailwind CSS 、UnoCSS -->
 

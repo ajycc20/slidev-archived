@@ -11,6 +11,3 @@ Chapter 2: Introduce the CSS selectors priority.
 - `npm install`
 - `npm run dev`
 - visit http://localhost:3030
-
-
-
