@@ -96,7 +96,7 @@ layout: two-cols
 ---
 # Atomic CSS
 
-```vue{all|7-11}
+```vue{all|2,7-11}
 <template>
   <div 
     flex
@@ -278,8 +278,8 @@ layout: default
 |选择器|内联样式|ID|类/属性/伪类|标签/伪元素|标记|
 | div header div p | 0 | 0 | 0 | 4 | 0,0,0,4 |
 | .container header div p | 0 | 0 | 1 | 3 | 0,0,1,3 |
-| .container header div .content | 0 | 0 | 2 | 0 | 0,0,2,2 |
-| #container header div #content | 0 | 1 | 0 | 0 | 0,2,0,0 |
+| .container header div .content | 0 | 0 | 2 | 2 | 0,0,2,2 |
+| #container header div #content | 0 | 2 | 2 | 0 | 0,2,2,0 |
 | `<span style="color:red">style="color:red"</span>` | 1 | 0 | 0 | 0 | 1,0,0,0 |
 
 ---
